@@ -1,2 +1,22 @@
 # 110-1-NTU-DBME5028
-Midterm Project : HARD TASK - Brain hemorrhage classification
+Midterm Project : Hard task - Intracranial Hemorrhage prediction \
+Teem members:\
+r09942171 黃繼綸 \
+rxxxxxxxx 陳羿翔
+
+# How to use
+### Download the models
+```bash
+$ bash download.sh
+```
+
+### Training
+```bash
+$ python train.py --data_path ../dataset
+```
+
+### Testing
+```bash
+$ python inference.py --data_path ../dataset ./output.csv
+```
+
