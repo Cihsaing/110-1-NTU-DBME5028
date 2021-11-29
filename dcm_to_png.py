@@ -103,7 +103,6 @@ def prepare_images(data_path, dcm_path, subfolder, train_val_ratio, folder):
         # Train_val_split
         save_path = os.path.join(data_path, folder+'_png.csv')
         np.savetxt(save_path,  save_csv, fmt='%s', delimiter=',')
-        train_val_ratio = 0.8 # train_val ratio
         nosick_ratio = 1.0  # Ratio of no sick images
         random_split = True # True:random split  False: split by ID
         train_save_name = os.path.join(data_path, 'train.csv')
