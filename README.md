@@ -17,6 +17,6 @@ $ python train.py --data_path ../dataset
 
 ### Testing
 ```bash
-$ python inference.py --data_path ../dataset ./output.csv
+$ python inference.py --data_path ../dataset --output ./output.csv
 ```
 
