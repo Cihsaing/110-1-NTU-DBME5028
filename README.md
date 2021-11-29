@@ -4,7 +4,7 @@ Teem members:\
 r09942171 黃繼綸 \
 rxxxxxxxx 陳羿翔
 
-# How to use this code
+# How to use
 ### Download the models
 ```bash
 $ bash download.sh
