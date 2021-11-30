@@ -2,7 +2,7 @@
 Midterm Project : Hard task - Intracranial Hemorrhage prediction \
 Teem members:\
 r09942171 黃繼綸 \
-rxxxxxxxx 陳羿翔
+f09921058 陳羿翔
 
 # How to use
 ### Download the models
