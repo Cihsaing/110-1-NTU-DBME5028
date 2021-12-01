@@ -20,3 +20,13 @@ $ python train.py --data_path ../dataset
 $ python inference.py --data_path ../dataset --output ./output.csv
 ```
 
+### Training from scratch
+SEresnet50 training
+```bash
+$ python train.py --data_path ../dataset --n_cpu 8 --batch_size 48 --model SEresnet50 --saved_name model_SEresnet50
+```
+
+resnext50 training
+```bash
+$ python train.py --data_path ../dataset --n_cpu 8 --batch_size 64 --model resnext50 --saved_name model_resnext50
+```
