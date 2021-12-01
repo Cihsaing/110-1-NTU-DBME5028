@@ -5,14 +5,14 @@ r09942171 黃繼綸 \
 f09921058 陳羿翔
 
 # Environment
-OS : Ubuntu 16.04
+OS : Ubuntu 16.04 \
 Python36
 
 # Package
-torch : 1.1+
-grad-cam
-opencv 4.5
-tensorboradX
+torch : 1.1+ \
+grad-cam \
+opencv 4.5 \
+tensorboradX \
 tqdm
 
 # How to use
