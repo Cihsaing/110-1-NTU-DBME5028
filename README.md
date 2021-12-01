@@ -8,12 +8,12 @@ f09921058 陳羿翔
 OS : Ubuntu 16.04 \
 Python36
 
-# Package
-torch : 1.1+ \
-grad-cam \
-opencv 4.5 \
-tensorboradX \
-tqdm
+# Requirements
+1. torch 1.3.1+
+2. grad-cam 
+3. opencv 4.5
+4. tensorboradX
+5. tqdm
 
 # How to use
 ### Download the models
