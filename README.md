@@ -10,16 +10,6 @@ f09921058 陳羿翔
 $ bash download.sh
 ```
 
-### Training
-```bash
-$ python train.py --data_path ../dataset
-```
-
-### Testing
-```bash
-$ python inference.py --data_path ../dataset --output ./output.csv
-```
-
 ### Training from scratch
 SEresnet50 training
 ```bash
@@ -30,3 +20,10 @@ resnext50 training
 ```bash
 $ python train.py --data_path ../dataset --n_cpu 8 --batch_size 64 --model resnext50 --saved_name model_resnext50
 ```
+
+### Testing
+```bash
+$ python inference.py --data_path ../dataset --output ./output.csv
+```
+
+
